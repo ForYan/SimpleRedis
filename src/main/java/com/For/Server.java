@@ -1,5 +1,4 @@
 package com.For;
-
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
@@ -7,6 +6,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * Created with IntelliJ IDEA
@@ -18,7 +19,6 @@ import java.net.Socket;
 public class Server {
 
     private static final org.slf4j.Logger logger = LoggerFactory.getLogger(Server.class);
-
     public void run(int port) throws IOException {
         try( ServerSocket serverSocket = new ServerSocket(port)) {
 

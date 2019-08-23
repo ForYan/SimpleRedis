@@ -6,8 +6,6 @@ import com.For.Protocol;
 
 import java.io.OutputStream;
 import java.util.List;
-
-
 /**
  * Created with IntelliJ IDEA
  * Description:

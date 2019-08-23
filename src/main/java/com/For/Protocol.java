@@ -184,7 +184,6 @@ public class Protocol {
         }
         return list;
     }
-
     private static Object process(InputStream is) throws IOException, specialEXC {
         int b=is.read();
         //读到字节流的结尾了
@@ -211,13 +210,11 @@ public class Protocol {
         os.write(message.getBytes());
         os.write("\r\n".getBytes());
     }
-
     public static void writeInteger(OutputStream os,long v) throws IOException {
         os.write(':');
         os.write(String.valueOf(v).getBytes());
         os.write("\r\n".getBytes());
     }
-
     public static void writeBulking(OutputStream os,String s) throws IOException {
         byte[] buf=s.getBytes();
         os.write('$');
@@ -226,7 +223,6 @@ public class Protocol {
         os.write(buf);
         os.write("\r\n".getBytes());
     }
-
     public static void writeArray(OutputStream os, List<String> list) throws Exception {
         os.write('*');
         os.write(String.valueOf(list.size()).getBytes());
@@ -243,7 +239,6 @@ public class Protocol {
             }
         }
     }
-
     public static void writeNull(OutputStream os) throws IOException {
         os.write('$');
         os.write('-');
