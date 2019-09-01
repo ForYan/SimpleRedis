@@ -1,11 +1,7 @@
 import junit.framework.TestCase;
-import redis.clients.jedis.Client;
 import redis.clients.jedis.Jedis;
-
-import java.sql.Time;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
 
 public class functionTest extends TestCase {
 

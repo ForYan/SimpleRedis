@@ -12,7 +12,6 @@ import java.util.List;
  * Created with IntelliJ IDEA
  * Description:
  * User: For
- * Date: 2019/8/5
  * Time: 19:01
  */
 public class LPUSHCommand implements Command {

@@ -3,8 +3,6 @@ package com.For.commands;
 import com.For.Command;
 import com.For.Database;
 import com.For.Protocol;
-
-import java.io.IOException;
 import java.io.OutputStream;
 import java.util.List;
 import java.util.Map;
@@ -13,7 +11,6 @@ import java.util.Map;
  * Created with IntelliJ IDEA
  * Description:
  * User: For
- * Date: 2019/8/9
  * Time: 16:30
  */
 public class HGETCommand implements Command {

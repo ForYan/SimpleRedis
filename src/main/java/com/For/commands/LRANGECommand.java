@@ -10,7 +10,6 @@ import java.util.List;
  * Created with IntelliJ IDEA
  * Description:
  * User: For
- * Date: 2019/8/9
  * Time: 16:06
  */
 public class LRANGECommand implements Command {

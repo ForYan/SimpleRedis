@@ -6,7 +6,6 @@ import java.util.*;
  * Created with IntelliJ IDEA
  * Description:
  * User: For
- * Date: 2019/8/5
  * Time: 19:21
  */
 public class Database {
