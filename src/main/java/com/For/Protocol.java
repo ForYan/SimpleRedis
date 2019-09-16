@@ -131,11 +131,11 @@ public class Protocol {
 
 
     private static String processSimpleString(InputStream is) throws IOException {
-        return is.toString();
+        return readLine(is);
     }
 
     private static String processError(InputStream is) throws IOException {
-        return is.toString();
+        return readLine(is);
     }
 
     private static long processInteger(InputStream is) throws IOException {
